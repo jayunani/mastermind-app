@@ -1,19 +1,30 @@
 {
-  "name": "react-boilerplate",
+  "name": "jayunani",
   "version": "1.0.0",
-  "description": "react boilerplate",
+  "description": "mastermind",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+  "engines": {
+    "node": "7.5.0",
+    "npm": "4.4.4"
   },
-  "author": "Jessica Ayunani",
-  "license": "MIT",
+  "scripts": {
+    "start": "node server.js",
+    "watch": "nodemon server.js"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "react"
+    ]
+  },
   "dependencies": {
     "axios": "^0.13.1",
+    "bootstrap": "^3.3.7",
     "express": "^4.14.0",
     "nodemon": "^1.10.2",
     "react": "^15.3.0",
+    "react-add-to-calendar": "0.0.9",
+    "react-bootstrap": "^0.30.8",
     "react-dom": "^15.3.0",
     "react-router": "^2.7.0"
   },
@@ -24,12 +35,17 @@
     "babel-preset-react": "^6.5.0",
     "babel-preset-stage-0": "^6.5.0",
     "css-loader": "^0.23.1",
+    "expect": "^1.14.0",
     "foundation-sites": "^6.2.0",
     "jquery": "^2.2.1",
+    "mocha": "^2.4.5",
     "node-sass": "^3.8.0",
+    "react-addons-test-utils": "^15.3.0",
     "sass-loader": "^4.0.0",
     "script-loader": "^0.7.0",
     "style-loader": "^0.13.1",
+    "watchify": "^3.6.0",
     "webpack": "^1.12.13"
-  }
+  },
+  "license": "MIT"
 }

@@ -44,7 +44,3 @@ var Nav = React.createClass ({
 });
 
 module.exports = Nav;
-
-// <li>
-// 	<Link to="/about" activeClassName="active" activeStyle={{fontWeight: 'bold'}}> About </Link>
-// </li>
