@@ -1,16 +1,31 @@
-var React = require('react');
-var Nav = require('Nav');
+import React from 'react';
+import Nav from 'Nav';
+import Colors from 'Colors';
+import Board from 'Board';
 
-var Main = (props) => {
-	return (
-		<div>	
-      <Nav/>
-      <div>
-        <p> testing </p>
-        {props.children}
+class Main extends React.Component{
+  constructor(props) {
+    super(props);
+    this.state = {
+      clicked: ''
+    }
+  }
+
+  clickedColor() {
+
+  }
+
+  render() {
+  return (
+      <div>	
+        <Nav/>
+        <div>
+          <Colors />
+          <Board />
+        </div>
       </div>
-    </div>
-	);
+    );
+  }
 }
 
-module.exports = Main;
+export default Main;

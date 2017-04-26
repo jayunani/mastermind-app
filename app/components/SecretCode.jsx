@@ -1,6 +1,6 @@
 import React from 'react';
 
-class Nav extends React.Component{
+class SecretCode extends React.Component{
 
 	render() {
 		return (
@@ -9,4 +9,4 @@ class Nav extends React.Component{
 	}
 }
 
-export default Nav;
+export default SecretCode;
