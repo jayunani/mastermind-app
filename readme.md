@@ -1,1 +1,2 @@
-**boilerplate**
+# mastermind-app
+Mastermind using React

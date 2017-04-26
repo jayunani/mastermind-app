@@ -1,0 +1,13 @@
+.clues {
+  width: 20%;
+  .clues-row {
+    display: flex;
+    .clue-peg{
+      height: 27px;
+      width: 27px; 
+      border-radius: 50%;
+      border: 1px solid black;
+      margin: 5px 5px 0px 5px;
+    }
+  }
+}

@@ -1,14 +1,14 @@
-var React = require('react'); 
-var ReactDOM = require('react-dom');
-var {Route, Router, IndexRoute, hashHistory} = require('react-router');
-var Main = require('Main');
+import React from 'react';
+import ReactDOM from 'react-dom';
+import {Route, Router, IndexRoute, hashHistory} from 'react-router';
+import Main from 'Main';
 
 // load foundation
-require('style!css!foundation-sites/dist/foundation.min.css');
+import 'style!css!foundation-sites/dist/foundation.min.css';
 $(document).foundation();
 
 // app css
-require('style!css!sass!applicationStyles');
+import 'style!css!sass!applicationStyles';
 
 ReactDOM.render(
 	<Router history={hashHistory}>

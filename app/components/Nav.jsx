@@ -4,7 +4,7 @@ class Nav extends React.Component{
 
 	render() {
 		return (
-			<div className='game-title'> Mastermind </div>
+			<div className='game-title'> mastermind </div>
 		)
 	}
 }
